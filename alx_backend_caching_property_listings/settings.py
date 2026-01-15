@@ -59,7 +59,7 @@ DATABASES = {
         'USER': 'property_user',
         'PASSWORD': 'property_password',
         'HOST': 'localhost',  # Use 'postgres' if running Django in Docker
-        'PORT': '5433',
+        'PORT': '5432',
     }
 }
 

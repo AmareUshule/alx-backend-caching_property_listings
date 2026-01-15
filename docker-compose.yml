@@ -3,7 +3,7 @@ version: '3.8'
 
 services:
   postgres:
-    image: postgres:15
+    image: postgres:latest
     container_name: property_postgres
     environment:
       POSTGRES_DB: property_db
